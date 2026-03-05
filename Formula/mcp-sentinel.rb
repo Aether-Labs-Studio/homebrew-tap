@@ -1,28 +1,28 @@
 class McpSentinel < Formula
   desc "Zero Trust proxy/firewall for the Model Context Protocol"
   homepage "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel"
-  version "1.3.1"
+  version "1.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.3.1/mcp-sentinel-v1.3.1-darwin-arm64"
-      sha256 "8e7c18a2797efcf32c4907c1fc3f7774606ba7c8f1a7ae8e18f890d748331073"
+      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.4.0/mcp-sentinel-v1.4.0-darwin-arm64"
+      sha256 "dfee1ea775d66761ee44b7209ae9644b81007ec652b3c114b93790061a698501"
     end
     on_intel do
-      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.3.1/mcp-sentinel-v1.3.1-darwin-amd64"
-      sha256 "e54dd772ce69ca2263a18dc4fee12361cfe247ae50c0c8af74b4fe21fa445881"
+      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.4.0/mcp-sentinel-v1.4.0-darwin-amd64"
+      sha256 "ac90f74545b2aea851f3d4c9516e1efe038251fa2a2b507bf9c8e511f2ab1f70"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.3.1/mcp-sentinel-v1.3.1-linux-arm64"
-      sha256 "e15cdbcf0832369a5f98c4e5caf2325a36f7202d02d51c0f728c3980fafe9dc3"
+      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.4.0/mcp-sentinel-v1.4.0-linux-arm64"
+      sha256 "99a9042723acd158f9a31920234ffa09a2b7c4bfa9bbd96b57f1b867fb07a0af"
     end
     on_intel do
-      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.3.1/mcp-sentinel-v1.3.1-linux-amd64"
-      sha256 "eed186d9473f341f96712a09b47f0a24554c83334136193759c73e911ed4fa3d"
+      url "https://github.com/Aether-Labs-Studio/mcp-aether-sentinel/releases/download/v1.4.0/mcp-sentinel-v1.4.0-linux-amd64"
+      sha256 "52b03ea58ea552c3079696e6200906a010593c39b2d4af53d0a0bc75ffcf1f06"
     end
   end
 
