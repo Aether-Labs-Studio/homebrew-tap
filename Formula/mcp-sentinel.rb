@@ -1,28 +1,28 @@
 class McpSentinel < Formula
   desc "Community Edition local MCP proxy with static regex blocking"
   homepage "https://github.com/Aether-Labs-Studio/mcp-sentinel"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.0.0/mcp-sentinel-v1.0.0-darwin-arm64"
-      sha256 "38a5aebfb12dd58fbb6757590d2563a14d82624b5cb54bf93eda16dec4ee634d"
+      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.1.0/mcp-sentinel-v1.1.0-darwin-arm64"
+      sha256 "2db792e4582d46075739ed3e2ee6146114f5445bc582eb4f53afa23e0cf18e2f"
     end
     on_intel do
-      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.0.0/mcp-sentinel-v1.0.0-darwin-amd64"
-      sha256 "6068503072be2d016bd903fa1e2eccd7070af50f63be205515210e9743284327"
+      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.1.0/mcp-sentinel-v1.1.0-darwin-amd64"
+      sha256 "802bc285ac27f387f0733718a24236bb0cc7a706b2596fd4ba17b23c288e67be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.0.0/mcp-sentinel-v1.0.0-linux-arm64"
-      sha256 "61d22d2786cbd98668c9e247ca5b102012c9ee97fbed6d341222b1e7d53f6ae3"
+      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.1.0/mcp-sentinel-v1.1.0-linux-arm64"
+      sha256 "75b63326141f28ad8608b96d467097fdc5c36ebe1fa8787b6ff0312ea66ae494"
     end
     on_intel do
-      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.0.0/mcp-sentinel-v1.0.0-linux-amd64"
-      sha256 "5f176f8c06b751c68ada690e76ef102e508c4a7c6a5609c8f5a462f801de6943"
+      url "https://github.com/Aether-Labs-Studio/mcp-sentinel/releases/download/v1.1.0/mcp-sentinel-v1.1.0-linux-amd64"
+      sha256 "1aa697f6834f142f448cea5c0da1067b18dd124a826f0d7015678bee10797e93"
     end
   end
 
